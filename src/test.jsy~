@@ -1,0 +1,7 @@
+const x = 10;
+const s = "abc";
+const t = "1" && "2" && "3";
+const b = true && 123 && "1" && !"" && (s === "abc") && (x === s || x === 5) && "all true";
+jsy.print("s = " + s);
+jsy.print("t = " + t);
+jsy.print("b = " + b);
